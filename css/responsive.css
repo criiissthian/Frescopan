@@ -57,7 +57,7 @@
 		border: 0;
 	}
 	.res-md-mrg-b-50 {
-		margin-bottom: 50px;
+		margin-bottom: 10px;
 	}
 	.padd-75x155 {
 		padding: 75px 0 75px 0;
@@ -629,3 +629,12 @@
 	    max-height: 100%;
 	}
 }
+
+/* INFO NAV SECTION */
+@media all and (max-width: 991px){
+	.info{
+		display: none;
+	}
+}
+
+
