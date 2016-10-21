@@ -1,0 +1,244 @@
+body{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+	margin: 0;
+}
+p{
+	font-family: 'Merriweather', serif;
+	font-weight: 400;
+}
+
+.contenedor{
+	width: 960px;
+	margin: auto;
+}
+/* HEADER */
+.logotipo{
+	display: block;
+	margin: auto;
+	width: 240px;
+}
+.slogan{
+	text-align: center;
+	color: #fff;
+}
+.background{
+	background-image: url(../img/portadaA.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding: 120px;
+}
+.titulo-a{
+	font-family: 'Herr Von Muellerhoff', cursive;
+	color: #DDA34D;
+	font-size: 75px;
+	font-weight: lighter;
+	letter-spacing: 5px;
+	transform: skewY(-5deg);
+}
+.titulo-b{
+	font-family: 'Montserrat', sans-serif;
+	color: #fff;
+	font-size: 65px;
+	margin-top: -65px;
+	letter-spacing: 2px;
+}
+/* Nav info */
+.info{
+	border-top: 8px solid #DDA34D;
+	background-color: #342b20;
+	width: 100%;
+	text-align: center;
+	display: inline-block;
+	position: relative;
+	padding-bottom: 30px;
+	align-items: center;
+}
+.info div{
+	display: inline-block;
+	margin-left: 50px;
+	margin-right: 50px;
+	margin-top: 3.5%;
+}
+.info i{
+	color: #fff;
+	font-size: 35px;
+}
+.info h5{
+	color: #fff;
+}
+.info h5:hover {
+	color: #dda34d;
+	cursor: pointer;
+}
+
+
+/* BODY */
+/*Sección Historia*/
+.historia{
+	margin-top: 80px;
+	margin-bottom: 80px;
+}
+.htext{
+	display: inline;
+	z-index: 2;
+}
+.img_derecha{
+	float: right;
+	position: relative;
+	left: 80px;
+	top: 40px;
+}
+.tit_cursiva{
+	font-family: 'Herr Von Muellerhoff', cursive;
+	color: #DDA34D;
+	letter-spacing: 5px;
+	transform: skewY(-5deg);
+	font-size: 55px;
+	font-weight: 400;
+	text-align: center;
+}
+.tit_san-serif{
+	font-family: 'Montserrat', sans-serif;
+	color: #151314;
+	letter-spacing: 2px;
+	font-size: 50px;
+	text-align: center;
+	margin-top: -65px;
+}
+
+
+.parrafoA{
+	font-size: 14px;
+	line-height: 24px;
+	padding-bottom: 15px;
+}
+.leer:hover{
+	background-color: #fff;
+	border: 3px solid #DDA34D;
+	color: #DDA34D;
+	transition: .2s;
+}
+.leer{
+	color: #fff;
+	background-color: #DDA34D;
+	font-size: 16px;
+	width: 145px;
+	height: 42px;
+	border: none;
+	cursor: pointer;
+}
+
+/*BG 01*/
+.bgA{
+	background-image: url('../img/bg01.jpg');
+	background-size: cover;
+	padding: 140px;
+}
+.titulo-slide-a{
+	font-family: 'Herr Von Muellerhoff', cursive;
+	color: #DDA34D;
+	font-size: 70px;
+	font-weight: lighter;
+	letter-spacing: 5px;
+	/*transform: skewY(-5deg);*/
+}
+.titulo-slide-b{
+	font-family: 'Montserrat', sans-serif;
+	color: #fff;
+	font-size: 45px;
+	margin-top: -85px;
+	letter-spacing: 4px;
+}
+.bg-titulos{
+	text-align: center;
+	display: inline;
+}
+/*BG 02*/
+.bgB{
+	background-image: url('../img/bg02.jpg');
+	background-size: cover;
+	padding: 140px;
+}
+
+/* SECCIÓN - PANES Y DULCES */
+
+.productos{
+	margin-top: 80px;
+	margin-bottom: 80px;
+}
+.galeria{
+	display: inline-block;
+	margin-left: -75px;
+}
+.img-galeria{
+	margin: 2px;
+}
+.texto-productos{
+	float: right;
+	position: relative;
+	left: 40px;
+	width: 50%;
+}
+.galeria-a{
+	position: relative;
+}
+.galeria-b{
+	position: relative;
+}
+.parrafoB{
+	font-size: 14px;
+	line-height: 24px;
+}
+
+/* Sección Preparación */
+.prepa{
+	margin-top: 80px;
+	margin-bottom: 240px;
+}
+
+/* FOOTER */
+footer{
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+footer h5{
+	margin-top: -15px;
+}
+.cl-1 a{
+	text-decoration: none;
+	color: #151314;
+}
+.cl-1 h5:hover {
+	color: #dda34d;
+	cursor: pointer;
+}
+
+.footer{
+	border-top: 15px solid #dda24d;
+}
+
+.cl-1{
+	display: inline-block;
+	width: 400px;
+}
+.cl-1 img{
+	display: block;
+	margin-bottom: 35px;
+}
+
+.cl-2{
+	display: inline-block;
+	position: relative;
+	left: 120px;
+}
+.cl-3{
+	display: inline-block;
+	position: relative;
+	top: 130px;
+	right: 120px;
+	float: right;
+}
+
+
+
