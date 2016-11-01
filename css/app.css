@@ -4,6 +4,7 @@
 	background-size: cover;
 	height: 90%;
 }
+
 .header{
 	padding-top: 10em;
 }
@@ -171,5 +172,95 @@ footer h5{
 .cl-3{
 	margin-top: 135px;
 }
+
+
+
+/*PÁGINA HISTORIA*/
+
+.contenedor-portada-historia{
+	background-image: url(../img/portada-historia.jpg);
+	background-size: cover;
+	height: 75%;
+}
+/*.logo-historia{
+	padding-bottom: 12em;
+}*/
+.titulo-historia-a{
+	font-family: 'Herr Von Muellerhoff', cursive;
+	color: #DDA34D;
+	font-size: 60px;
+}
+.titulo-historia-b{
+	font-family: 'Montserrat', sans-serif;
+	color: white;
+	font-size: 50px;
+	letter-spacing: 2px;
+	font-weight: 700;
+	margin-top: -45px;
+}
+.contenedor-portada-historia{
+	border-bottom: 10px solid #DDA34D;
+}
+
+/*SECCIÓN MISIÓN VISIÓN*/
+.contenedor-historia-frase{
+	margin-top: 180px;
+}
+.contenedor-mv{
+	padding: 160px 0;
+}
+.tit-mision, .tit-vision{
+	font-family: 'Herr Von Muellerhoff', cursive;
+	color: #DDA34D;
+	font-size: 55px;
+}
+.mision img, .vision img{
+	padding-bottom: 40px;
+}
+.contenedor-mv p{
+	font-size: 14px;
+    line-height: 24px;
+}
+.contenedor-historia-frescopan{
+	padding-bottom: 180px;
+}
+.tit-nuestra{
+	font-family: 'Herr Von Muellerhoff', cursive;
+	color: #DDA34D;
+	font-size: 60px;
+}
+.tit-frescopan{
+	padding-bottom: 40px;
+	margin-top: -40px;
+	font-family: 'Montserrat', sans-serif;
+    color: #151314;
+    letter-spacing: 2px;
+    font-size: 50px;
+}
+.contenedor-historia-frescopan p{
+	font-size: 14px;
+    line-height: 24px;
+}
+.menu li a{
+	display: block;
+}
+
+.btn{
+	margin-top: 20px;
+	border: 3px solid #DDA34D;
+	color: #DDA34D;
+	width: 245px;
+	height: 45px;
+	cursor: pointer;
+	font-size: 16px;
+}
+.btn:hover{
+	color: #fff;
+	background-color: #DDA34D;
+	transition: .2s;
+	/*border: none;*/
+}
+
+
 
 
