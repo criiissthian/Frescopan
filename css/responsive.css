@@ -140,4 +140,94 @@
 
 
 
+/*PÁGINA HISTORIA*/
+
+@media screen and (max-width: 1400px){
+	.contenedor-portada-historia{
+		background-image: url(../img/portada-historia-1100.jpg);
+	}
+}
+
+@media screen and (max-width: 1060px){
+	.contenedor-portada-historia{
+		height: 65%;
+	}
+}
+@media screen and (max-width: 920px){
+	.contenedor-portada-historia{
+		background-image: url(../img/portada-historia-920.jpg);
+	}
+}
+@media screen and (max-width: 780px){
+	.contenedor-portada-historia{
+		background-image: url(../img/portada-historia-780.jpg);
+		height: 53%;
+	}
+	.titulo-historia-a{
+	font-size: 50px;
+	margin-top: -55px;
+	}
+	.titulo-historia-b{
+		font-size: 40px;
+		margin-top: -45px;
+	}
+}
+@media screen and (max-width: 639px){
+	.tit-mision,
+	.tit-vision{
+		text-align: center;
+	}
+	.mv{
+		text-align: center;
+	}
+	.vision{
+		padding-top: 40px;
+	}
+}
+
+@media screen and (max-width: 560px){
+	.contenedor-mv{
+	padding: 100px 0;
+	}
+	.contenedor-portada-historia{
+		background-image: url(../img/portada-historia-560.jpg);
+	}
+	.tit-frescopan{
+		font-size: 40px;
+	}
+	.tit-nuestra{
+		font-size: 55px;
+		padding-bottom: 10px;
+	}
+	.tit-mision,
+	.tit-vision{
+		font-size: 50px;
+	}
+}
+@media screen and (max-width: 480px){
+	.titulo-historia-a{
+	font-size: 40px;
+	margin-top: -90px;
+	}
+	.titulo-historia-b{
+		font-size: 30px;
+		margin-top: -35px;
+	}
+	.tit-frescopan{
+		font-size: 30px;
+		line-height: 30px;
+	}
+}
+@media screen and (max-width: 380px){
+	.titulo-historia-a{
+	font-size: 35px;
+	margin-top: -140px;
+	}
+	.titulo-historia-b{
+		font-size: 25px;
+		margin-top: -30px;
+	}
+}
+
+
 
