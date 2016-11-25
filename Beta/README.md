@@ -1,2 +1,0 @@
-# Frescopan
-Landing Fresco pan
