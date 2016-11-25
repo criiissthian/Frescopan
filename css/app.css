@@ -2,7 +2,7 @@
 .contenedor-portada{
 	background-image: url(../img/portada.jpg);
 	background-size: cover;
-	height: 90%;
+	height: 88%;
 }
 
 .header{
@@ -14,7 +14,9 @@
 .titulo-a{
 	font-family: 'Herr Von Muellerhoff', cursive;
 	color: #DDA34D;
-	font-size: 60px;
+	font-size: 65px;
+	letter-spacing: 5px;
+	transform: skewY(-2deg);
 }
 .titulo-b{
 	font-family: 'Montserrat', sans-serif;
@@ -22,7 +24,7 @@
 	font-size: 50px;
 	letter-spacing: 2px;
 	font-weight: 700;
-	margin-top: -20px;
+	margin-top: -21px;
 }
 
 /* Nav info */
@@ -65,7 +67,7 @@
 	font-family: 'Herr Von Muellerhoff', cursive;
 	color: #DDA34D;
 	letter-spacing: 5px;
-	transform: skewY(-5deg);
+	/*transform: skewY(-5deg);*/
 	font-size: 55px;
 	font-weight: 400;
 	text-align: center;
@@ -78,7 +80,9 @@
 	text-align: center;
 	margin-top: -35px;
 }
-
+.img_derecha{
+	padding-top: 15px;
+}
 
 .parrafoA{
 	font-size: 14px;
@@ -133,6 +137,10 @@
 	background-size: cover;
 	padding: 160px;
 }
+.bgC img{
+	display: block;
+	margin: auto;
+}
 
 /*SECCIÓN PRODUCTOS*/
 .contenedor-productos{
@@ -141,6 +149,21 @@
 }
 .img-galeria{
 	margin: 3px;
+}
+.btn-mas:hover{
+	background-color: #fff;
+	border: 3px solid #DDA34D;
+	color: #DDA34D;
+	transition: .2s;
+}
+.btn-mas{
+	color: #fff;
+	background-color: #DDA34D;
+	font-size: 16px;
+	width: 170px;
+	height: 42px;
+	border: none;
+	cursor: pointer;
 }
 
 /* FOOTER */
@@ -166,12 +189,18 @@ footer h5{
 .cl-1 img{
 	margin-bottom: 35px;
 }
+.cl-1 i{
+	letter-spacing: 2px;
+	font-size: 26px;
+	color: #342B20;	
+}
 .cl-2{
 	margin-top: 116px;
 }
 .cl-3{
 	margin-top: 135px;
 }
+
 
 
 
