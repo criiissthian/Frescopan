@@ -16,15 +16,15 @@
 	color: #DDA34D;
 	font-size: 65px;
 	letter-spacing: 5px;
-	transform: skewY(-2deg);
+	/*transform: skewY(-2deg);*/
 }
 .titulo-b{
 	font-family: 'Montserrat', sans-serif;
 	color: white;
-	font-size: 50px;
+	font-size: 55px;
 	letter-spacing: 2px;
 	font-weight: 700;
-	margin-top: -21px;
+	margin-top: -42px;
 }
 
 /* Nav info */

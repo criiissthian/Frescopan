@@ -24,6 +24,17 @@
 	}
 
 }
+
+/*HERO CAPTION*/
+@media screen and (max-width: 968px){
+	.titulo-a{
+		font-size: 60px;
+	}
+	.titulo-b{
+		font-size: 50px;
+	}
+}
+
 /*NAV INFO*/
 @media screen and (max-width: 931px){
 	.contenedor-nav{
@@ -40,6 +51,14 @@
 		margin-right: 60px;
 	}
 
+}
+
+/*Hero Caption*/
+@media screen and (max-width: 890px){
+	.titulo-b{
+		line-height: 1;
+		padding-top: 18px;
+	}
 }
 
 	/*iPad*/
@@ -132,6 +151,18 @@
 		margin-top: 20px;
 	}
 
+}
+
+/*Hero Caption*/
+@media screen and (max-width: 468px){
+	.header{
+		padding-top: 7em;
+	}
+	.titulo-a{
+		font-size: 36px;
+		line-height: 1;
+		padding-bottom: 15px;
+	}
 }
 
 /*FOOTER*/
