@@ -292,4 +292,49 @@ footer h5{
 
 
 
+.error{
+	background-image: url(../img/404.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+@media screen and (max-width: 767px){
+	.error{
+		background-image: url(../img/404-mobile.jpg);
+	}
+}
+
+.tx-error h1{
+	color: white;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	font-size: 170px;
+	text-align: center;
+}
+.tx-error p{
+	color: white;
+	text-align: center;
+	font-size: 21px;
+	margin-top: -30px;
+}
+.tx-error{
+	padding-top: 140px;
+}
+
+.cta-regresar{
+	padding-top: 25px;
+	display: table;
+}
+.btn-regresar{
+	border: 5px solid #fff;
+	color: #fff;
+	width: 345px;
+	height: 80px;
+}
+.btn-regresar h1{
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+}
+
 
